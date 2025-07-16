@@ -7,6 +7,18 @@ body {
     color: var(--text-color-secondary);
 }
 
+h1 {
+    font: var(--heading1);
+    color: var(--text-color-primary);
+    margin: 0;
+}
+
+p {
+    font: var(--paragraph-md);
+    color: var(--text-color-secondary);
+    margin: 8px 0;
+}
+
 header {
     border: 1px solid green;
     height: 80px;
@@ -39,4 +51,69 @@ li {
 .profile.menu {
     width: 40px;
     height: 40px;
+}
+
+section.about {
+    font: var(--paragraph-md);
+    border: 1px solid red;
+    padding: 32px;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;  
+}
+
+.about-main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;
+    width: 592px;
+    height: 176px;;
+}
+
+.profile-about {
+    height: 176px;
+}
+
+.about-info {
+    display: flex;
+    align-items: center;
+    width: 280px;
+    border: 1px solid blue;
+}
+
+ul.info-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.info-list li {
+    position: relative;
+}
+
+.location::before {
+    content: url(../assets/MapPin.svg);
+    position: absolute;
+    left: -32px;
+    top: 66%;
+    transform: translateY(-50%);
+}
+
+.countries::before {
+    content: url(../assets/AirplaneTilt.svg);
+    position: absolute;
+    left: -32px;
+    top: 66%;
+    transform: translateY(-50%);
+}
+
+.photos::before {
+    content: url(../assets/image.svg);
+    position: absolute;
+    left: -32px;
+    top: 66%;
+    transform: translateY(-50%);
 }

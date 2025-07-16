@@ -9,8 +9,8 @@
 
     --font-family: 'Poppins', sans-serif;
     --heading1: bold 32px/125% var(--font-family);
-    --paragraph-md: regular 14px/170% var(--font-family);
-    --paragraph-sm: regular 12px/170% var(--font-family);
-    --paragraph: regular 16px/170% var(--font-family);
+    --paragraph-md: 400 14px/170% var(--font-family);
+    --paragraph-sm: 400 12px/170% var(--font-family);
+    --paragraph: 400 16px/170% var(--font-family);
 }
 
