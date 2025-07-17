@@ -1,40 +1,16 @@
 @import url(global.css);
 
-body {
-    margin: 0;
-    padding: 0;
-    font-family: var(--font-family);
-    color: var(--text-color-secondary);
+.logo {
+    height: 40px;
 }
 
-h1 {
-    font: var(--heading1);
-    color: var(--text-color-primary);
-    margin: 0;
-}
-
-p {
-    font: var(--paragraph-md);
-    color: var(--text-color-secondary);
-    margin: 8px 0;
-}
 
 header {
-    border: 1px solid green;
     height: 80px;
     display: flex;
     justify-content: space-between;
     padding: 0 32px;
     align-items: center;
-}
-
-.logo {
-    height: 40px;
-}
-
-.menu-item {
-    text-decoration: none;
-    color: var(--text-color-secondary);
 }
 
 .menu {
@@ -44,10 +20,6 @@ header {
     align-items: center;
 }
 
-li {
-    list-style: none;
-}
-
 .profile.menu {
     width: 40px;
     height: 40px;
@@ -55,7 +27,6 @@ li {
 
 section.about {
     font: var(--paragraph-md);
-    border: 1px solid red;
     padding: 32px;
 }
 
@@ -81,7 +52,6 @@ section.about {
     display: flex;
     align-items: center;
     width: 280px;
-    border: 1px solid blue;
 }
 
 ul.info-list {
@@ -116,4 +86,30 @@ ul.info-list {
     left: -32px;
     top: 66%;
     transform: translateY(-50%);
+}
+
+.photo-gallery {
+    display: flex;
+    gap: 24px;
+    flex-flow: wrap;
+    padding: 24px 25px;
+    justify-content: center;
+}
+
+.photo-gallery div img{
+    width: 286px;
+    height: 286px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 16px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+    padding: 0 32px;
 }

@@ -14,3 +14,51 @@
     --paragraph: 400 16px/170% var(--font-family);
 }
 
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-family);
+    color: var(--text-color-secondary);
+    max-width: 1280px;
+    max-height: 1346px;
+    margin: 0 auto;    
+}
+
+h1 {
+    font: var(--heading1);
+    color: var(--text-color-primary);
+    margin: 0;
+}
+
+p {
+    font: var(--paragraph-md);
+    color: var(--text-color-secondary);
+    margin: 8px 0;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color-secondary);
+}
+
+a:hover {
+    color: var(--brand-color);
+}
+
+.magnifyng-glass {
+    background: url(../assets/MagnifyingGlass.svg) no-repeat center center;
+    width: 24px;
+    height: 24px;
+    border: none;
+}
+
+.magnifyng-glass:hover {
+    background: url(../assets/MagnifyingGlass-hover.svg) no-repeat center center;
+    width: 24px;
+    height: 24px;
+    border: none;
+}
+
+.list-style-none {
+    list-style: none;
+}
