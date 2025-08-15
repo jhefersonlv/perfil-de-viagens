@@ -22,6 +22,7 @@ body {
     max-width: 1280px;
     max-height: 1346px;
     margin: 0 auto;    
+    background-color: var(--surface-color);
 }
 
 h1 {
