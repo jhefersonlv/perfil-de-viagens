@@ -1,0 +1,21 @@
+@media (width <= 63.75em) {
+
+    .desktop-only {
+        display: none;
+    }
+
+    section.about {
+        display: grid;
+    }
+
+    div.about-main {
+        display: grid;
+
+    }
+
+    footer {
+        flex-direction: column;
+        font-size: 14px;
+    }
+
+}
